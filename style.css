@@ -25,7 +25,7 @@ body {
   max-height: 120px;
   background-color: #e71f1f;
   transform: rotate(-45deg);
-  margin: 0 auto 30px auto;
+  margin: 90px;
   filter: drop-shadow(0 0 15px #ffffff);
   animation: latido 1s infinite;
 }
@@ -50,10 +50,25 @@ body {
   top: 0;
 }
 
+.nombre {
+  font-size: 3vw; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 40px;
+}
+
+.nombre:hover {
+  color: #c37f7f;
+}
+
 .text {
-  font-size: 5vw; 
+  font-size: 3vw; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   max-width: 90%;
   margin-top: 40px;
+}
+
+.text:hover {
+  color: #c37f7f;
 }
 
 footer {
